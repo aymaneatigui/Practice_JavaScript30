@@ -25,6 +25,10 @@ body {
   transition: transform 0.5s;
 }
 
+.fixNav .site-wrap{
+  padding-top: 74px;
+}
+
 header {
   text-align: center;
   height: 50vh;
@@ -48,6 +52,10 @@ nav {
   transition: all 0.5s;
   position: relative;
   z-index: 1;
+}
+
+.fixNav nav{
+  position: fixed;
 }
 
 nav ul {
